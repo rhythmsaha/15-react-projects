@@ -1,0 +1,83 @@
+.Backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.MenuOverlay {
+    position: relative;
+    background: white;
+    margin: auto;
+    margin-top: 1vh;
+    width: 95%;
+    padding: 2rem;
+    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.3),
+        0 15px 40px rgba(166, 173, 201, 0.2);
+    border-radius: 12px;
+    animation-name: showMenu;
+    animation-duration: 200ms;
+}
+
+.CloseBtn {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+@keyframes showMenu {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.MenuWrapper {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.Category {
+    width: 100%;
+    padding: 2px;
+}
+
+.CatName {
+    display: block;
+    text-transform: capitalize;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    font-size: 1.1rem;
+}
+
+.Sublinks {
+    padding: 1rem 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 10px;
+}
+
+.Link a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 6px 5px 6px 0;
+    margin: 0 0 1px 0;
+    text-transform: capitalize;
+    color: #102a42;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.Icon {
+    margin-right: 1rem;
+    vertical-align: middle;
+    color: #617d98;
+}

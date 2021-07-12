@@ -1,0 +1,20 @@
+.Main {
+    margin-top: 5rem;
+}
+
+.Heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 5rem;
+}
+
+.Heading::after {
+    content: "";
+    height: 2px;
+    width: 10rem;
+    background: rgb(3, 167, 255);
+    position: absolute;
+    bottom: -1rem;
+}

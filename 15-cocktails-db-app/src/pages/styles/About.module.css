@@ -1,0 +1,32 @@
+.AboutSection {
+    max-width: 700px;
+    margin: auto;
+    margin-top: 6rem;
+}
+
+.AboutSection .Heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    margin-bottom: 3rem;
+    background: #3dcbff;
+    background: -webkit-linear-gradient(to right, #3dcbff 0%, #ff00f9 100%);
+    background: -moz-linear-gradient(to right, #3dcbff 0%, #ff00f9 100%);
+    background: linear-gradient(to right, #3dcbff 0%, #ff00f9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.AboutSection .Content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+    line-height: 2;
+    font-size: 1.2rem;
+    text-align: justify;
+    color: #1f003c;
+}
