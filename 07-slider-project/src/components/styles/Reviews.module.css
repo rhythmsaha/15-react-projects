@@ -1,0 +1,113 @@
+.Header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    font-weight: 600;
+    font-size: 2rem;
+    letter-spacing: 1.5px;
+    margin-bottom: 5vh;
+}
+
+.Header span {
+    font-weight: bolder;
+    margin-left: -2rem;
+    margin-right: 1.5rem;
+    color: brown;
+}
+
+.Image {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: rgb(0, 0, 0);
+    border: 1px solid lightgray;
+    margin-bottom: 1.8rem;
+}
+
+.Image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.Name {
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: brown;
+    letter-spacing: 1.5px;
+}
+
+.Title {
+    font-size: 1rem;
+    color: rgb(17, 70, 102);
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+}
+
+.Quote {
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: rgb(39, 96, 131);
+}
+
+.Reviews {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 600px;
+    width: 95%;
+    margin: auto;
+    height: 340px;
+    overflow: hidden;
+}
+
+.Reviews button {
+    border: none;
+    outline: none;
+    background: rgb(20, 103, 136);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 5px;
+    font-size: 1rem;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.Article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 250ms linear;
+}
+
+.activeSlide {
+    opacity: 1;
+    transform: translateX(0);
+}
+.lastSlide {
+    transform: translateX(-100%);
+}
+.nextSlide {
+    transform: translateX(100%);
+}

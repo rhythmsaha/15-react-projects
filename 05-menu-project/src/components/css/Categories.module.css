@@ -1,0 +1,24 @@
+.Categories {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.CategoryBtn button {
+    padding: 5px 0;
+    width: 6rem;
+    background: transparent;
+    color: tomato;
+    border: 1px solid tomato;
+    border-radius: 4px;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.CategoryBtn button:hover {
+    color: red;
+    border-color: red;
+}

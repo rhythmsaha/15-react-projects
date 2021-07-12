@@ -1,0 +1,44 @@
+.Card {
+    background: #fff;
+    color: #000;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.QuestionHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Question {
+    max-width: 85%;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.2;
+    text-transform: capitalize;
+}
+
+.toggleBtn button {
+    color: rgb(34, 0, 255);
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    background: rgb(230, 230, 255);
+}
+
+.Answer {
+    max-width: 85%;
+    margin-top: 8px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.3;
+}

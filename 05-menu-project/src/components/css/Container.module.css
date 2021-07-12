@@ -1,0 +1,24 @@
+.PageTitle {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    color: tomato;
+    margin-bottom: 3rem;
+}
+
+.PageTitle::after {
+    content: "";
+    height: 2px;
+    width: 100px;
+    position: absolute;
+    background-color: tomato;
+    bottom: -1rem;
+}
+
+.Menu {
+    width: 90%;
+    max-width: 1366px;
+    margin: auto;
+    margin-top: 3rem;
+}
