@@ -1,0 +1,33 @@
+.Picture {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    display: block;
+}
+
+.Picture img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.Person {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.Details {
+    margin-left: 10px;
+}
+
+.Name {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.Age {
+    font-weight: 500;
+}

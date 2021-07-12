@@ -1,0 +1,7 @@
+.tourHeader {
+    max-width: 400px;
+    margin: 3rem auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

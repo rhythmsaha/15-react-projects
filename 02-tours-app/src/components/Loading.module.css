@@ -1,0 +1,11 @@
+.loading {
+    width: 400px;
+    margin: 3rem auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loading h1 {
+    color: rgb(0, 145, 255);
+}
