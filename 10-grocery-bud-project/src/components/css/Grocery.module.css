@@ -1,0 +1,46 @@
+.GroceryItem {
+    list-style: none;
+    transition: 200ms;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+
+.GroceryItem:hover {
+    background-color: rgb(241, 245, 252);
+}
+
+.GroceryItem div {
+    width: 100%;
+    padding: 10px 1rem;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.actions button {
+    background: transparent;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.FaEdit {
+    color: rgb(1, 179, 179);
+}
+
+.FaTrash {
+    color: brown;
+}
+
+.index {
+    margin-right: 10px;
+}
